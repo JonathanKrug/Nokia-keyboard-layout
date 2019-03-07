@@ -12,6 +12,8 @@
 		0C74AF81222EA2D20065DFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74AF7F222EA2D20065DFAD /* Main.storyboard */; };
 		0C74AF83222EA2D40065DFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C74AF82222EA2D40065DFAD /* Assets.xcassets */; };
 		0C74AF86222EA2D40065DFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74AF84222EA2D40065DFAD /* LaunchScreen.storyboard */; };
+		0CFCC30B22311510000A1C03 /* NokiaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCC30A22311510000A1C03 /* NokiaButton.swift */; };
+		0CFCC30D2231152F000A1C03 /* NokiaButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCC30C2231152F000A1C03 /* NokiaButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0C74AF82222EA2D40065DFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C74AF85222EA2D40065DFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C74AF87222EA2D40065DFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CFCC30A22311510000A1C03 /* NokiaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaButton.swift; sourceTree = "<group>"; };
+		0CFCC30C2231152F000A1C03 /* NokiaButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NokiaButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0C74AF82222EA2D40065DFAD /* Assets.xcassets */,
 				0C74AF84222EA2D40065DFAD /* LaunchScreen.storyboard */,
 				0C74AF87222EA2D40065DFAD /* Info.plist */,
+				0CFCC30A22311510000A1C03 /* NokiaButton.swift */,
+				0CFCC30C2231152F000A1C03 /* NokiaButton.xib */,
 			);
 			path = Nokia;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				0C74AF86222EA2D40065DFAD /* LaunchScreen.storyboard in Resources */,
 				0C74AF83222EA2D40065DFAD /* Assets.xcassets in Resources */,
+				0CFCC30D2231152F000A1C03 /* NokiaButton.xib in Resources */,
 				0C74AF81222EA2D20065DFAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFCC30B22311510000A1C03 /* NokiaButton.swift in Sources */,
 				0C74AF7E222EA2D20065DFAD /* ViewController.swift in Sources */,
 				0C74AF7C222EA2D20065DFAD /* AppDelegate.swift in Sources */,
 			);
