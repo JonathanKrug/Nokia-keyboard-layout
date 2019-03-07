@@ -20,7 +20,17 @@ class ViewController: UIViewController {
         
         for view in self.view.subviews as [UIView] {
             
-            if let btn = view as? NokiaButton, btn.tag > 0 && btn.tag != 9 {
+            if let btn = view as? NokiaButton {
+                
+                btn.view.layer.cornerRadius = 20
+                
+                if btn.tag == 9 {
+                    let tap = UITapGestureRecognizer(target: self, action: #selector(insertSpace(_:)))
+                    tap.numberOfTapsRequired = 1
+                    btn.addGestureRecognizer(tap)
+                }
+                
+                guard btn.tag != 9 && btn.tag > 0 else { continue }
                 
                 let oneTap = UITapGestureRecognizer(target: self, action: #selector(tappedButton(_:)))
                 oneTap.numberOfTapsRequired = 1
@@ -69,6 +79,10 @@ class ViewController: UIViewController {
         }
     }
     
+    @objc func insertSpace(_ button: UITapGestureRecognizer) {
+        self.textField.text?.append(" ")
+    }
+    
     @objc func tappedButton(_ button: UITapGestureRecognizer) {
         switch button.numberOfTapsRequired {
         case 1:
@@ -81,6 +95,11 @@ class ViewController: UIViewController {
             self.tapped(button, time: .fourth)
         default:
             break
+        }
+    }
+    @IBAction func deleteLastCharacter(_ sender: Any) {
+        if self.textField.text?.count ?? 0 > 0 {
+            self.textField.text?.removeLast()
         }
     }
 }
