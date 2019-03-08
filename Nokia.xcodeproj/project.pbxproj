@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6ED84322329AB300DBD785 /* NokiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6ED84222329AB300DBD785 /* NokiaTests.swift */; };
+		0C6ED8512232A1AA00DBD785 /* NokiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6ED8502232A1AA00DBD785 /* NokiaUITests.swift */; };
 		0C74AF7C222EA2D20065DFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74AF7B222EA2D20065DFAD /* AppDelegate.swift */; };
 		0C74AF7E222EA2D20065DFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74AF7D222EA2D20065DFAD /* ViewController.swift */; };
 		0C74AF81222EA2D20065DFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74AF7F222EA2D20065DFAD /* Main.storyboard */; };
@@ -16,7 +18,30 @@
 		0CFCC30D2231152F000A1C03 /* NokiaButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCC30C2231152F000A1C03 /* NokiaButton.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0C6ED84522329AB300DBD785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C74AF70222EA2D20065DFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C74AF77222EA2D20065DFAD;
+			remoteInfo = Nokia;
+		};
+		0C6ED8532232A1AA00DBD785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C74AF70222EA2D20065DFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C74AF77222EA2D20065DFAD;
+			remoteInfo = Nokia;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0C6ED84022329AB300DBD785 /* NokiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6ED84222329AB300DBD785 /* NokiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaTests.swift; sourceTree = "<group>"; };
+		0C6ED84422329AB300DBD785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6ED84E2232A1AA00DBD785 /* NokiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6ED8502232A1AA00DBD785 /* NokiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaUITests.swift; sourceTree = "<group>"; };
+		0C6ED8522232A1AA00DBD785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C74AF78222EA2D20065DFAD /* Nokia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nokia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C74AF7B222EA2D20065DFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C74AF7D222EA2D20065DFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +54,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0C6ED83D22329AB300DBD785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6ED84B2232A1AA00DBD785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C74AF75222EA2D20065DFAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C6ED84122329AB300DBD785 /* NokiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C6ED84222329AB300DBD785 /* NokiaTests.swift */,
+				0C6ED84422329AB300DBD785 /* Info.plist */,
+			);
+			path = NokiaTests;
+			sourceTree = "<group>";
+		};
+		0C6ED84F2232A1AA00DBD785 /* NokiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C6ED8502232A1AA00DBD785 /* NokiaUITests.swift */,
+				0C6ED8522232A1AA00DBD785 /* Info.plist */,
+			);
+			path = NokiaUITests;
+			sourceTree = "<group>";
+		};
 		0C74AF6F222EA2D20065DFAD = {
 			isa = PBXGroup;
 			children = (
 				0C74AF7A222EA2D20065DFAD /* Nokia */,
+				0C6ED84122329AB300DBD785 /* NokiaTests */,
+				0C6ED84F2232A1AA00DBD785 /* NokiaUITests */,
 				0C74AF79222EA2D20065DFAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				0C74AF78222EA2D20065DFAD /* Nokia.app */,
+				0C6ED84022329AB300DBD785 /* NokiaTests.xctest */,
+				0C6ED84E2232A1AA00DBD785 /* NokiaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +134,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0C6ED83F22329AB300DBD785 /* NokiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6ED84722329AB300DBD785 /* Build configuration list for PBXNativeTarget "NokiaTests" */;
+			buildPhases = (
+				0C6ED83C22329AB300DBD785 /* Sources */,
+				0C6ED83D22329AB300DBD785 /* Frameworks */,
+				0C6ED83E22329AB300DBD785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C6ED84622329AB300DBD785 /* PBXTargetDependency */,
+			);
+			name = NokiaTests;
+			productName = NokiaTests;
+			productReference = 0C6ED84022329AB300DBD785 /* NokiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C6ED84D2232A1AA00DBD785 /* NokiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6ED8552232A1AA00DBD785 /* Build configuration list for PBXNativeTarget "NokiaUITests" */;
+			buildPhases = (
+				0C6ED84A2232A1AA00DBD785 /* Sources */,
+				0C6ED84B2232A1AA00DBD785 /* Frameworks */,
+				0C6ED84C2232A1AA00DBD785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C6ED8542232A1AA00DBD785 /* PBXTargetDependency */,
+			);
+			name = NokiaUITests;
+			productName = NokiaUITests;
+			productReference = 0C6ED84E2232A1AA00DBD785 /* NokiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		0C74AF77222EA2D20065DFAD /* Nokia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C74AF8A222EA2D40065DFAD /* Build configuration list for PBXNativeTarget "Nokia" */;
@@ -100,6 +197,14 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Jonathan;
 				TargetAttributes = {
+					0C6ED83F22329AB300DBD785 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C74AF77222EA2D20065DFAD;
+					};
+					0C6ED84D2232A1AA00DBD785 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0C74AF77222EA2D20065DFAD;
+					};
 					0C74AF77222EA2D20065DFAD = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -119,11 +224,27 @@
 			projectRoot = "";
 			targets = (
 				0C74AF77222EA2D20065DFAD /* Nokia */,
+				0C6ED83F22329AB300DBD785 /* NokiaTests */,
+				0C6ED84D2232A1AA00DBD785 /* NokiaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C6ED83E22329AB300DBD785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6ED84C2232A1AA00DBD785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C74AF76222EA2D20065DFAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +259,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0C6ED83C22329AB300DBD785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6ED84322329AB300DBD785 /* NokiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6ED84A2232A1AA00DBD785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6ED8512232A1AA00DBD785 /* NokiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C74AF74222EA2D20065DFAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +286,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C6ED84622329AB300DBD785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C74AF77222EA2D20065DFAD /* Nokia */;
+			targetProxy = 0C6ED84522329AB300DBD785 /* PBXContainerItemProxy */;
+		};
+		0C6ED8542232A1AA00DBD785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C74AF77222EA2D20065DFAD /* Nokia */;
+			targetProxy = 0C6ED8532232A1AA00DBD785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0C74AF7F222EA2D20065DFAD /* Main.storyboard */ = {
@@ -170,6 +320,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C6ED84822329AB300DBD785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMLG7ERC9T;
+				INFOPLIST_FILE = NokiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathankrug.NokiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nokia.app/Nokia";
+			};
+			name = Debug;
+		};
+		0C6ED84922329AB300DBD785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMLG7ERC9T;
+				INFOPLIST_FILE = NokiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathankrug.NokiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nokia.app/Nokia";
+			};
+			name = Release;
+		};
+		0C6ED8562232A1AA00DBD785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMLG7ERC9T;
+				INFOPLIST_FILE = NokiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathankrug.NokiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nokia;
+			};
+			name = Debug;
+		};
+		0C6ED8572232A1AA00DBD785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMLG7ERC9T;
+				INFOPLIST_FILE = NokiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathankrug.NokiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nokia;
+			};
+			name = Release;
+		};
 		0C74AF88222EA2D40065DFAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +553,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C6ED84722329AB300DBD785 /* Build configuration list for PBXNativeTarget "NokiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6ED84822329AB300DBD785 /* Debug */,
+				0C6ED84922329AB300DBD785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6ED8552232A1AA00DBD785 /* Build configuration list for PBXNativeTarget "NokiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6ED8562232A1AA00DBD785 /* Debug */,
+				0C6ED8572232A1AA00DBD785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0C74AF73222EA2D20065DFAD /* Build configuration list for PBXProject "Nokia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
