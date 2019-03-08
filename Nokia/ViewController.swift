@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textField: UITextField!
+    
+    @IBOutlet weak var textField: UITextView!
     var letters = [Character]()
     
     override func viewDidLoad() {
@@ -59,7 +60,14 @@ class ViewController: UIViewController {
                 }
             }
         }
+        styleTextView()
         self.textField.becomeFirstResponder()
+    }
+    
+    func styleTextView() {
+        self.textField.layer.cornerRadius = 10
+        self.textField.layer.borderColor = UIColor.black.cgColor
+        self.textField.layer.borderWidth = 5
     }
     
     enum Tap: Int {
